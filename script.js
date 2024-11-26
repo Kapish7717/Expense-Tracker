@@ -1,4 +1,4 @@
-const epenseForm = document.getElementById("expenseForm");
+const expenseForm = document.getElementById("expenseForm");
 const expenseList = document.getElementById("expenseList");
 
 expenseForm.addEventListener("submit", (event) => {
