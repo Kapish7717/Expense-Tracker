@@ -5,11 +5,11 @@ expenseForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const description = document.getElementById("description").value;
   const category = document.getElementById("category").value;
-  const amount = document.getElementById("amount").vaue;
+  const amount = document.getElementById("amount").value;
 
   const newRow = document.createElement("tr");
 
-  newRow.innerHTML = `<td>${description}</td> 
+  newRow.innerHTML = `<td>${description}</td>
         <td>${category}</td>
         <td>${amount}</td>`;
   expenseList.appendChild(newRow);
